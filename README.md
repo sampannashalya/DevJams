@@ -1,5 +1,5 @@
 # DevJams
-Sustainable Development Goals
+Sustainable Development Goals:
 
 The project initiative aims to empower individuals to make a positive impact in rural areas and contribute to education growth in their respective communities.
 
