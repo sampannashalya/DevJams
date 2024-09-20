@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header_buttons {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FFE7D1 ;
+    overflow: hidden;
+    text-align: center; 
+}
+
+.header_buttons a {
+    display: inline-block;
+    color: #396362;
+    text-align: center;
+    font-size: x-large;
+    padding: 18px 22px;
+    text-decoration: none;
+}
+
+.header_buttons b{
+    color: white;
+    float: right;
+    margin-top: 5px;
+    padding: 18px 22px;
+    text-decoration: dashed;
+    border-radius: 30px;
+    background-color: #4B8E8D;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.welcome {
+    font-family: 'Manrope', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.welcome c{
+    color: #3A7563;
+}
+
+.intro {
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.slider-container {
+    width: 40%;
+    height: 350px;
+    margin-top: 80px;
+    margin-left: 450px;
+    text-align: center;
+    transform: translate(-50% 50%);
+    background-image: url('Start-up\,\ SME\ Business\ Trend\ Take-off\ in\ Nepal\ _\ Nepali\ Business.jpeg');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 4px 3px #42514cc7;
+    animation: slider 12s infinite linear;
+}
+
+@keyframes slider{
+    0%{background-image: url('Start-up\,\ SME\ Business\ Trend\ Take-off\ in\ Nepal\ _\ Nepali\ Business.jpeg');}
+    25%{background-image: url('SDG\ 4_\ Quality\ education.jpeg');}
+    50%{background-image: url('Resources.jpeg');}
+    75%{background-image: url('SDG\ 17-Partnerships\ for\ the\ Goal.jpeg');}
+}
+
+.section {
+    width: 27.72%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    margin-top: 80px;
+    text-align: center;
+    background-color: #395144;
+    border: 1px solid #B0D9B1;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+d {
+    color: #B0D9B1;
+    font-size: large;
+    background-color: #395144;
+    border: 2px solid #B0D9B1 ;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.d:hover {
+    background-color: #395144;
+}
