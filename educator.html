@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>educator</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            width: 80%;
+            max-width: 1800px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .photo {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .photo img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .form {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .form h2 {
+            text-align: center;
+        }
+
+        .form input[type="text"],
+        .form input[type="int"],
+        .form input[type="date"],
+        .form button {
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .form button {
+            background-color: #56776C;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .form button:hover {
+            background-color: #464F41;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="photo">
+            <img src="Exams Customizable Cartoon Illustrations _ Bro Style.jpeg" alt="Your Photo">
+        </div>
+        <div class="form">
+            <h2>Become an Educator</h2>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="text" placeholder="Region" required>
+                <input type="int" placeholder="Contact Number" required>
+                <input type="text" placeholder="Email" required>
+                <input type="text" placeholder="Subject" required>
+                <input type="text" placeholder="Qualifications" required>
+                <input type="date" placeholder="Days available" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
